@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3D2D3B293B79E000D78A34 /* MovieCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D2D3A293B79E000D78A34 /* MovieCategoryModel.swift */; };
+		0A3D2D3E293BC57400D78A34 /* AllMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D2D3D293BC57400D78A34 /* AllMovieController.swift */; };
+		0A51948B293113C9002EB9F6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51948A293113C9002EB9F6 /* MainTabBarController.swift */; };
+		0A51948D29313204002EB9F6 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51948C29313204002EB9F6 /* HomeHeaderView.swift */; };
+		0A5194902932026A002EB9F6 /* SearchButtonvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51948F2932026A002EB9F6 /* SearchButtonvView.swift */; };
+		0A519493293266E4002EB9F6 /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A519492293266E4002EB9F6 /* HomeContentView.swift */; };
+		0A51949529326F72002EB9F6 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51949429326F72002EB9F6 /* ContentTableViewCell.swift */; };
+		0A5194972932805F002EB9F6 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5194962932805F002EB9F6 /* MovieCollectionViewCell.swift */; };
+		0A66AAD32933C57E006742B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66AAD22933C57E006742B5 /* Constants.swift */; };
 		0A79FE95292F450000AFF44B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79FE94292F450000AFF44B /* AppDelegate.swift */; };
 		0A79FE97292F450000AFF44B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79FE96292F450000AFF44B /* SceneDelegate.swift */; };
-		0A79FE99292F450000AFF44B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79FE98292F450000AFF44B /* ViewController.swift */; };
-		0A79FE9C292F450000AFF44B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A79FE9A292F450000AFF44B /* Main.storyboard */; };
+		0A79FE99292F450000AFF44B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79FE98292F450000AFF44B /* AuthViewController.swift */; };
 		0A79FE9E292F450100AFF44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A79FE9D292F450100AFF44B /* Assets.xcassets */; };
 		0A79FEA1292F450100AFF44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A79FE9F292F450100AFF44B /* LaunchScreen.storyboard */; };
+		0A7DF9B3292F7FA2002812F5 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9B2292F7FA2002812F5 /* ColorPicker.swift */; };
+		0A7DF9B5292F8A15002812F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9B4292F8A15002812F5 /* HomeViewController.swift */; };
+		0A7DF9B7292F8A23002812F5 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9B6292F8A23002812F5 /* ExploreViewController.swift */; };
+		0A7DF9B9292F8A32002812F5 /* MyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9B8292F8A32002812F5 /* MyListViewController.swift */; };
+		0A7DF9BB292F8A41002812F5 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9BA292F8A41002812F5 /* DownloadViewController.swift */; };
+		0A7DF9BD292F8A53002812F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9BC292F8A53002812F5 /* ProfileViewController.swift */; };
+		0AE17097293B5A7800A8D44B /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE17096293B5A7800A8D44B /* MovieModel.swift */; };
+		159D9D2D12F571AB4AA69405 /* Pods_Danime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F08D8AF1788ED143F8C37FC /* Pods_Danime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3D2D3A293B79E000D78A34 /* MovieCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategoryModel.swift; sourceTree = "<group>"; };
+		0A3D2D3D293BC57400D78A34 /* AllMovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMovieController.swift; sourceTree = "<group>"; };
+		0A51948A293113C9002EB9F6 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		0A51948C29313204002EB9F6 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		0A51948F2932026A002EB9F6 /* SearchButtonvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButtonvView.swift; sourceTree = "<group>"; };
+		0A519492293266E4002EB9F6 /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
+		0A51949429326F72002EB9F6 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		0A5194962932805F002EB9F6 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		0A66AAD22933C57E006742B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0A79FE91292F450000AFF44B /* Danime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Danime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A79FE94292F450000AFF44B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A79FE96292F450000AFF44B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A79FE98292F450000AFF44B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A79FE9B292F450000AFF44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A79FE98292F450000AFF44B /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		0A79FE9D292F450100AFF44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A79FEA0292F450100AFF44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A79FEA2292F450100AFF44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7DF9B2292F7FA2002812F5 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		0A7DF9B4292F8A15002812F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A7DF9B6292F8A23002812F5 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		0A7DF9B8292F8A32002812F5 /* MyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
+		0A7DF9BA292F8A41002812F5 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		0A7DF9BC292F8A53002812F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0AE17096293B5A7800A8D44B /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		331D8858297B290B4D8325E6 /* Pods-Danime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danime.debug.xcconfig"; path = "Target Support Files/Pods-Danime/Pods-Danime.debug.xcconfig"; sourceTree = "<group>"; };
+		6AAB2118FA1C20AE16577E69 /* Pods-Danime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danime.release.xcconfig"; path = "Target Support Files/Pods-Danime/Pods-Danime.release.xcconfig"; sourceTree = "<group>"; };
+		6F08D8AF1788ED143F8C37FC /* Pods_Danime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159D9D2D12F571AB4AA69405 /* Pods_Danime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3D2D39293B799000D78A34 /* HomeControllerModel */ = {
+			isa = PBXGroup;
+			children = (
+				0AE17096293B5A7800A8D44B /* MovieModel.swift */,
+				0A3D2D3A293B79E000D78A34 /* MovieCategoryModel.swift */,
+			);
+			path = HomeControllerModel;
+			sourceTree = "<group>";
+		};
+		0A3D2D3C293BC54C00D78A34 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D2D3D293BC57400D78A34 /* AllMovieController.swift */,
+			);
+			path = HomeController;
+			sourceTree = "<group>";
+		};
+		0A51948E29320243002EB9F6 /* HomeControllerViews */ = {
+			isa = PBXGroup;
+			children = (
+				0A51948C29313204002EB9F6 /* HomeHeaderView.swift */,
+				0A519492293266E4002EB9F6 /* HomeContentView.swift */,
+				0A51949429326F72002EB9F6 /* ContentTableViewCell.swift */,
+			);
+			path = HomeControllerViews;
+			sourceTree = "<group>";
+		};
+		0A51949129320287002EB9F6 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				0A5194962932805F002EB9F6 /* MovieCollectionViewCell.swift */,
+				0A51948F2932026A002EB9F6 /* SearchButtonvView.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
 		0A79FE88292F450000AFF44B = {
 			isa = PBXGroup;
 			children = (
 				0A79FE93292F450000AFF44B /* Danime */,
 				0A79FE92292F450000AFF44B /* Products */,
+				110529B7E7CBE0E169E7009C /* Pods */,
+				5D4EA7C308D6D06202C505DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +129,75 @@
 		0A79FE93292F450000AFF44B /* Danime */ = {
 			isa = PBXGroup;
 			children = (
+				0A7DF9B1292F7F8C002812F5 /* Helpers */,
+				0A7DF9AE292F4901002812F5 /* Controller */,
+				0A7DF9AD292F48FC002812F5 /* View */,
+				0A7DF9AC292F48F6002812F5 /* Model */,
 				0A79FE94292F450000AFF44B /* AppDelegate.swift */,
 				0A79FE96292F450000AFF44B /* SceneDelegate.swift */,
-				0A79FE98292F450000AFF44B /* ViewController.swift */,
-				0A79FE9A292F450000AFF44B /* Main.storyboard */,
 				0A79FE9D292F450100AFF44B /* Assets.xcassets */,
 				0A79FE9F292F450100AFF44B /* LaunchScreen.storyboard */,
 				0A79FEA2292F450100AFF44B /* Info.plist */,
+				0A66AAD22933C57E006742B5 /* Constants.swift */,
 			);
 			path = Danime;
+			sourceTree = "<group>";
+		};
+		0A7DF9AC292F48F6002812F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D2D39293B799000D78A34 /* HomeControllerModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A7DF9AD292F48FC002812F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A51949129320287002EB9F6 /* CommonViews */,
+				0A51948E29320243002EB9F6 /* HomeControllerViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A7DF9AE292F4901002812F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A3D2D3C293BC54C00D78A34 /* HomeController */,
+				0A79FE98292F450000AFF44B /* AuthViewController.swift */,
+				0A7DF9B4292F8A15002812F5 /* HomeViewController.swift */,
+				0A7DF9B6292F8A23002812F5 /* ExploreViewController.swift */,
+				0A7DF9B8292F8A32002812F5 /* MyListViewController.swift */,
+				0A7DF9BA292F8A41002812F5 /* DownloadViewController.swift */,
+				0A7DF9BC292F8A53002812F5 /* ProfileViewController.swift */,
+				0A51948A293113C9002EB9F6 /* MainTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A7DF9B1292F7F8C002812F5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A7DF9B2292F7FA2002812F5 /* ColorPicker.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		110529B7E7CBE0E169E7009C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				331D8858297B290B4D8325E6 /* Pods-Danime.debug.xcconfig */,
+				6AAB2118FA1C20AE16577E69 /* Pods-Danime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D4EA7C308D6D06202C505DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F08D8AF1788ED143F8C37FC /* Pods_Danime.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A79FEA5292F450100AFF44B /* Build configuration list for PBXNativeTarget "Danime" */;
 			buildPhases = (
+				37686811DC272E0550ED46BF /* [CP] Check Pods Manifest.lock */,
 				0A79FE8D292F450000AFF44B /* Sources */,
 				0A79FE8E292F450000AFF44B /* Frameworks */,
 				0A79FE8F292F450000AFF44B /* Resources */,
+				6E6561B62F41DED611F170E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +262,83 @@
 			files = (
 				0A79FEA1292F450100AFF44B /* LaunchScreen.storyboard in Resources */,
 				0A79FE9E292F450100AFF44B /* Assets.xcassets in Resources */,
-				0A79FE9C292F450000AFF44B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37686811DC272E0550ED46BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Danime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E6561B62F41DED611F170E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Danime/Pods-Danime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Danime/Pods-Danime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Danime/Pods-Danime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A79FE8D292F450000AFF44B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A79FE99292F450000AFF44B /* ViewController.swift in Sources */,
+				0AE17097293B5A7800A8D44B /* MovieModel.swift in Sources */,
+				0A519493293266E4002EB9F6 /* HomeContentView.swift in Sources */,
+				0A79FE99292F450000AFF44B /* AuthViewController.swift in Sources */,
+				0A51948B293113C9002EB9F6 /* MainTabBarController.swift in Sources */,
+				0A3D2D3E293BC57400D78A34 /* AllMovieController.swift in Sources */,
+				0A7DF9BD292F8A53002812F5 /* ProfileViewController.swift in Sources */,
+				0A7DF9B3292F7FA2002812F5 /* ColorPicker.swift in Sources */,
 				0A79FE95292F450000AFF44B /* AppDelegate.swift in Sources */,
+				0A7DF9BB292F8A41002812F5 /* DownloadViewController.swift in Sources */,
+				0A66AAD32933C57E006742B5 /* Constants.swift in Sources */,
 				0A79FE97292F450000AFF44B /* SceneDelegate.swift in Sources */,
+				0A51948D29313204002EB9F6 /* HomeHeaderView.swift in Sources */,
+				0A7DF9B7292F8A23002812F5 /* ExploreViewController.swift in Sources */,
+				0A7DF9B9292F8A32002812F5 /* MyListViewController.swift in Sources */,
+				0A51949529326F72002EB9F6 /* ContentTableViewCell.swift in Sources */,
+				0A5194972932805F002EB9F6 /* MovieCollectionViewCell.swift in Sources */,
+				0A5194902932026A002EB9F6 /* SearchButtonvView.swift in Sources */,
+				0A7DF9B5292F8A15002812F5 /* HomeViewController.swift in Sources */,
+				0A3D2D3B293B79E000D78A34 /* MovieCategoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A79FE9A292F450000AFF44B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A79FE9B292F450000AFF44B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A79FE9F292F450100AFF44B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +466,7 @@
 		};
 		0A79FEA6292F450100AFF44B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331D8858297B290B4D8325E6 /* Pods-Danime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +477,6 @@
 				INFOPLIST_FILE = Danime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +494,7 @@
 		};
 		0A79FEA7292F450100AFF44B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAB2118FA1C20AE16577E69 /* Pods-Danime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +505,6 @@
 				INFOPLIST_FILE = Danime/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,6 @@
+framework module Pods_Danime {
+  umbrella header "Pods-Danime-umbrella.h"
+
+  export *
+  module * { export * }
+}
