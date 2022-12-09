@@ -16,6 +16,7 @@
 		0A51949529326F72002EB9F6 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51949429326F72002EB9F6 /* ContentTableViewCell.swift */; };
 		0A5194972932805F002EB9F6 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5194962932805F002EB9F6 /* MovieCollectionViewCell.swift */; };
 		0A66AAD32933C57E006742B5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66AAD22933C57E006742B5 /* Constants.swift */; };
+		0A6CAB702943C99F002255CD /* DetailedMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6CAB6F2943C99F002255CD /* DetailedMovieVC.swift */; };
 		0A79FE95292F450000AFF44B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79FE94292F450000AFF44B /* AppDelegate.swift */; };
 		0A79FE97292F450000AFF44B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79FE96292F450000AFF44B /* SceneDelegate.swift */; };
 		0A79FE99292F450000AFF44B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A79FE98292F450000AFF44B /* AuthViewController.swift */; };
@@ -27,6 +28,9 @@
 		0A7DF9B9292F8A32002812F5 /* MyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9B8292F8A32002812F5 /* MyListViewController.swift */; };
 		0A7DF9BB292F8A41002812F5 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9BA292F8A41002812F5 /* DownloadViewController.swift */; };
 		0A7DF9BD292F8A53002812F5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7DF9BC292F8A53002812F5 /* ProfileViewController.swift */; };
+		0AC44B342941FBC600760C6D /* DownloadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC44B332941FBC600760C6D /* DownloadTableViewCell.swift */; };
+		0AC44B362941FD5400760C6D /* TImeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC44B352941FD5400760C6D /* TImeUtils.swift */; };
+		0ADB07B5293CEF77005EA3C1 /* HeaderExploreControllerViewExploreReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADB07B4293CEF77005EA3C1 /* HeaderExploreControllerViewExploreReusableView.swift */; };
 		0AE17097293B5A7800A8D44B /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE17096293B5A7800A8D44B /* MovieModel.swift */; };
 		159D9D2D12F571AB4AA69405 /* Pods_Danime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F08D8AF1788ED143F8C37FC /* Pods_Danime.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +45,7 @@
 		0A51949429326F72002EB9F6 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
 		0A5194962932805F002EB9F6 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		0A66AAD22933C57E006742B5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0A6CAB6F2943C99F002255CD /* DetailedMovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedMovieVC.swift; sourceTree = "<group>"; };
 		0A79FE91292F450000AFF44B /* Danime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Danime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A79FE94292F450000AFF44B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A79FE96292F450000AFF44B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +59,9 @@
 		0A7DF9B8292F8A32002812F5 /* MyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
 		0A7DF9BA292F8A41002812F5 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		0A7DF9BC292F8A53002812F5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0AC44B332941FBC600760C6D /* DownloadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTableViewCell.swift; sourceTree = "<group>"; };
+		0AC44B352941FD5400760C6D /* TImeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImeUtils.swift; sourceTree = "<group>"; };
+		0ADB07B4293CEF77005EA3C1 /* HeaderExploreControllerViewExploreReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderExploreControllerViewExploreReusableView.swift; sourceTree = "<group>"; };
 		0AE17096293B5A7800A8D44B /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		331D8858297B290B4D8325E6 /* Pods-Danime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danime.debug.xcconfig"; path = "Target Support Files/Pods-Danime/Pods-Danime.debug.xcconfig"; sourceTree = "<group>"; };
 		6AAB2118FA1C20AE16577E69 /* Pods-Danime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danime.release.xcconfig"; path = "Target Support Files/Pods-Danime/Pods-Danime.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +92,7 @@
 		0A3D2D3C293BC54C00D78A34 /* HomeController */ = {
 			isa = PBXGroup;
 			children = (
+				0A7DF9B4292F8A15002812F5 /* HomeViewController.swift */,
 				0A3D2D3D293BC57400D78A34 /* AllMovieController.swift */,
 			);
 			path = HomeController;
@@ -95,6 +104,7 @@
 				0A51948C29313204002EB9F6 /* HomeHeaderView.swift */,
 				0A519492293266E4002EB9F6 /* HomeContentView.swift */,
 				0A51949429326F72002EB9F6 /* ContentTableViewCell.swift */,
+				0A6CAB6F2943C99F002255CD /* DetailedMovieVC.swift */,
 			);
 			path = HomeControllerViews;
 			sourceTree = "<group>";
@@ -154,6 +164,8 @@
 		0A7DF9AD292F48FC002812F5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0AC44B322941FB9B00760C6D /* DownloadControllerViews */,
+				0ADB07B3293CEF4D005EA3C1 /* ExploreControllerViews */,
 				0A51949129320287002EB9F6 /* CommonViews */,
 				0A51948E29320243002EB9F6 /* HomeControllerViews */,
 			);
@@ -165,7 +177,6 @@
 			children = (
 				0A3D2D3C293BC54C00D78A34 /* HomeController */,
 				0A79FE98292F450000AFF44B /* AuthViewController.swift */,
-				0A7DF9B4292F8A15002812F5 /* HomeViewController.swift */,
 				0A7DF9B6292F8A23002812F5 /* ExploreViewController.swift */,
 				0A7DF9B8292F8A32002812F5 /* MyListViewController.swift */,
 				0A7DF9BA292F8A41002812F5 /* DownloadViewController.swift */,
@@ -179,8 +190,25 @@
 			isa = PBXGroup;
 			children = (
 				0A7DF9B2292F7FA2002812F5 /* ColorPicker.swift */,
+				0AC44B352941FD5400760C6D /* TImeUtils.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0AC44B322941FB9B00760C6D /* DownloadControllerViews */ = {
+			isa = PBXGroup;
+			children = (
+				0AC44B332941FBC600760C6D /* DownloadTableViewCell.swift */,
+			);
+			path = DownloadControllerViews;
+			sourceTree = "<group>";
+		};
+		0ADB07B3293CEF4D005EA3C1 /* ExploreControllerViews */ = {
+			isa = PBXGroup;
+			children = (
+				0ADB07B4293CEF77005EA3C1 /* HeaderExploreControllerViewExploreReusableView.swift */,
+			);
+			path = ExploreControllerViews;
 			sourceTree = "<group>";
 		};
 		110529B7E7CBE0E169E7009C /* Pods */ = {
@@ -317,16 +345,20 @@
 				0AE17097293B5A7800A8D44B /* MovieModel.swift in Sources */,
 				0A519493293266E4002EB9F6 /* HomeContentView.swift in Sources */,
 				0A79FE99292F450000AFF44B /* AuthViewController.swift in Sources */,
+				0A6CAB702943C99F002255CD /* DetailedMovieVC.swift in Sources */,
 				0A51948B293113C9002EB9F6 /* MainTabBarController.swift in Sources */,
 				0A3D2D3E293BC57400D78A34 /* AllMovieController.swift in Sources */,
 				0A7DF9BD292F8A53002812F5 /* ProfileViewController.swift in Sources */,
 				0A7DF9B3292F7FA2002812F5 /* ColorPicker.swift in Sources */,
 				0A79FE95292F450000AFF44B /* AppDelegate.swift in Sources */,
+				0AC44B362941FD5400760C6D /* TImeUtils.swift in Sources */,
 				0A7DF9BB292F8A41002812F5 /* DownloadViewController.swift in Sources */,
 				0A66AAD32933C57E006742B5 /* Constants.swift in Sources */,
 				0A79FE97292F450000AFF44B /* SceneDelegate.swift in Sources */,
 				0A51948D29313204002EB9F6 /* HomeHeaderView.swift in Sources */,
 				0A7DF9B7292F8A23002812F5 /* ExploreViewController.swift in Sources */,
+				0ADB07B5293CEF77005EA3C1 /* HeaderExploreControllerViewExploreReusableView.swift in Sources */,
+				0AC44B342941FBC600760C6D /* DownloadTableViewCell.swift in Sources */,
 				0A7DF9B9292F8A32002812F5 /* MyListViewController.swift in Sources */,
 				0A51949529326F72002EB9F6 /* ContentTableViewCell.swift in Sources */,
 				0A5194972932805F002EB9F6 /* MovieCollectionViewCell.swift in Sources */,

@@ -27,18 +27,9 @@ class ContentTableViewCell: UITableViewCell {
         btn.setTitleColor(hexStringToUIColor(hex: "E21221"), for: UIControl.State.normal)
         btn.setTitle("See all", for: .normal)
         
-        btn.addTarget(self, action: #selector(tapSeeAllBtn), for: .touchUpInside)
-        
         return btn
     }()
     
-    @objc func tapSeeAllBtn() {
-        print("You tapped button see all")
-        let allMovieVC = AllMovieController()
-        allMovieVC.modalPresentationStyle = .fullScreen
-//        self.window?.rootViewController?.present(allMovieVC, animated: true)
-    }
-        
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -99,9 +90,15 @@ extension ContentTableViewCell: UICollectionViewDelegate, UICollectionViewDataSo
         let cell = collectionView.dequeueReusableCell(
             withReuseIdentifier: Constants.Identifiers.MovieCollectionViewCell,
             for: indexPath) as! MovieCollectionViewCell
-        
+//        let gesture = UIGestureRecognizer(target: cell, action: #selector(didTapMovie(sender: )))
+//        contentView.addGestureRecognizer(gesture)
+//
         cell.configure(with: model)
         return cell
+    }
+    
+    @objc func didTapMovie(sender: AnyObject) {
+        print("JJJJJJJJJ")
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -111,7 +108,6 @@ extension ContentTableViewCell: UICollectionViewDelegate, UICollectionViewDataSo
 
 
 // MARK: - Extension for setup views and constraints
-
 extension ContentTableViewCell {
     func setupViews() {
         self.contentView.addSubview(collectionView)

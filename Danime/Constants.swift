@@ -12,5 +12,7 @@ struct Constants {
     struct Identifiers {
         static let ContentTableViewCell = "ContentTableViewCell"
         static let MovieCollectionViewCell = "MovieCollectionViewCell"
+        static let HeaderExploreReusableView = "HeaderExploreReusableView"
+        static let DownloadTableViewCell = "DownloadTableViewCell"
     }
 }

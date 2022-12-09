@@ -48,10 +48,14 @@ class AuthViewController: UIViewController {
     }
     
     @objc func didTapButton() {
-        let tabBarVC = MainTabBarController()
+        let tabBarVC = UINavigationController(rootViewController: MainTabBarController())
         
         tabBarVC.modalPresentationStyle = .fullScreen
-        present(tabBarVC, animated: true)
+//        navigationController?.pushViewController(tabBarVC, animated: true)
+//        navigationController?.navigationItem.hidesBackButton = true
+        
+        
+        self.present(tabBarVC, animated: true)
     }
 }
 
